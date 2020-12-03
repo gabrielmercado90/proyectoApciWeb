@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/navbar/navbar'
 import Busqueda from './components/busqueda/busq'
-import Home from './components/home/Home'
+import Home from './components/home/home'
 import Login from './components/login/login'
 import Result from './components/result/result'
 import amb from './components/imgs/amb.png'
