@@ -1,5 +1,5 @@
 import React from 'react'
-import './login.css'
+import './home.css'
 import Card from '../Card/card'
 
 
