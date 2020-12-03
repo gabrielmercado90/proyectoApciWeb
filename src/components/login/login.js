@@ -1,21 +1,29 @@
 import React from 'react'
 import './login.css'
-import Card from '../Card/card'
+import OButton from '../button/button'
+import { FormControl, IconButton, Input, InputAdornment, InputLabel, makeStyles, TextField } from '@material-ui/core';
+
 
 
 export default function Login() {
     return (
-        <div className="o-home">
-            <div className="o-top">
-                <p>Información de los nodos</p>
-                <a href="#"><p>Cerrar sesión</p></a>
+        <div className="o-container-login">
+        <div className="o-login">
+            <h3>Inicio de sesión</h3>
+            <div>
+            <p>Cédula</p>
+            <TextField
+                    />
             </div>
-            <div className="Cards">
-                <Card title={"Ambulancia"}></Card>
-                <Card title={"Usuarios"}></Card>
+            <div>
+            <p>Contraseña</p>
+            <TextField
+             type={ 'password'}
+                    />
             </div>
+            <OButton label={"Ingresar"}></OButton>
         </div>
-
+        </div>
 
     )
 }
