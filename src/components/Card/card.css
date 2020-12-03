@@ -10,4 +10,14 @@ width: 18rem;
 height: 24rem;
 border: 2px solid black;
 border-radius: 2.3rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+
+.o-card-ims{
+    margin-top: 4rem;
+    width: 12rem;
+    height: auto;
 }
