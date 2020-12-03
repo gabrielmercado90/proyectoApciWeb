@@ -1,11 +1,18 @@
+
+/* body{
+    
+} */
 .o-container-login{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-size: cover;
+    background-image: url('/src/components/imgs/loginbg.png');
 }
 .o-login{
+    background-color: white;
     width: 18rem;
     height: 24rem;
     border: 2px solid black;
